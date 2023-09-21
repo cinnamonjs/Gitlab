@@ -6,7 +6,7 @@ void main()
   do
   { 
     printf("Starting program")
-    printf("What is your Name? ");
+    printf("What is your passenger id");
     scanf("%s", Name);
     do
     {
@@ -45,5 +45,5 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
-  printf("Goodbye\n");
+  printf("Goodbye awaken pls\n");
 }
