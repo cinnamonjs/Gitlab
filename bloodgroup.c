@@ -5,6 +5,7 @@ void main()
   int i;
   do
   { 
+    printf("User B change 1")
     printf("Starting program")
     printf("What is your Name? ");
     scanf("%s", Name);
@@ -46,4 +47,6 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
+  printf("User B change 2")
+
 }
