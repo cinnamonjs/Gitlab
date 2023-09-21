@@ -4,7 +4,8 @@ void main()
 { char Name[40], G[5], answer[10];
   int i;
   do
-  {
+  { 
+    printf("Starting program")
     printf("What is your Name? ");
     scanf("%s", Name);
     do
