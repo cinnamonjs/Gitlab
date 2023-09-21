@@ -30,7 +30,7 @@ void main()
     else if (strcmp(G, "B") ==0)
     {
       printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
-      printf("  You can receive blood from: B, O.\n");
+      printf("asmron say You receive blood from: B, O.\n");
     }
     else if (strcmp(G, "AB") == 0)
     {
@@ -40,7 +40,7 @@ void main()
     else
     {
       printf("%s, O. Nice! You can give blood to all: O, A, B, AB\n", Name);
-      printf("  But Sad! You can receive blood only from: O\n");
+      printf("Asmron the god say But Sad! You can receive blood only from: O\n");
     }
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
